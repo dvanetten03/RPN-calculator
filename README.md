@@ -8,7 +8,7 @@ This program is written in ruby with the following specifications:
 1. Uses standard input/output.
 2. Uses four standard arithmetic operators +, -, *, /.
 3. Supports negative and decimal numbers and has no arbitrary limits on the number of operations.
-4. Does not allow invalid or undefined behavior.
+4. Does not allow invalid or undefined behavior, such as division by 0.
 5. Exits when receives a q command.
 
 An equation written in infix notation (what is seen in normal math equations) shown as:
@@ -18,3 +18,5 @@ An equation written in infix notation (what is seen in normal math equations) sh
 would look like this in RPN:
 
 ` 4 5 2 + * 1 - `
+
+If the expression is empty, it should evaluate to zero (0).
