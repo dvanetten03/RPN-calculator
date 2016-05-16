@@ -20,3 +20,8 @@ would look like this in RPN:
 ` 4 5 2 + * 1 - `
 
 If the expression is empty, it should evaluate to zero (0).
+
+## To use program, enter the irb at your terminal prompt.
+
+When the irb loads, enter load 'rpn.rb' and hit enter. From here you will load a new instance of the calculator using `calc = RPN.new`. You will then type `calc.get_input` where you will be accessing the calculator.
+
